@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>Creare_DynamicSitemap</name>
+    <version>2.0.3</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/OSL-3.0">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A dynamic sitemap which lists all categories and main pages automatically.</summary>
+    <description>This dynamic sitemap lists all of your categories in cascading style. Standard styling on a dedicated sitemap page. This sitemap is SEO friendly and is intended to replace the default Magento paginated sitemap.&#xD;
+&#xD;
+It lists all of your CMS pages and also a few static pages that need a mention.&#xD;
+&#xD;
+This sitemap will also include a link to your XML sitemap if you have it installed.&#xD;
+&#xD;
+The purpose of this extension is to make sure that your categories are indexed correctly as well as making your website more user-friendly.&#xD;
+&#xD;
+We have updated this extension to allow for the admin to change settings in the config area of the dashboard.</description>
+    <notes>Updated to work on 1.4+ with admin configuration.&#xD;
+&#xD;
+More fixed for store view and is_active CMS pages</notes>
+    <authors><author><name>Robert Kent</name><user>auto-converted</user><email>magento@creare.co.uk</email></author></authors>
+    <date>2013-05-20</date>
+    <time>10:40:57</time>
+    <contents><target name="magelocal"><dir name="Creare"><dir name="DynamicSitemap"><dir name="Block"><file name="Dynamicsitemap.php" hash="f3673ec07a7edb270b983e10279d0aee"/></dir><dir name="Helper"><file name="Data.php" hash="856282fac51bdd86f56886547cd55411"/></dir><dir name="controllers"><file name="IndexController.php" hash="2d7d6ff70f70e00c17bfbc3d9305671a"/></dir><dir name="etc"><file name="config.xml" hash="a25f0021efb9ef409ec9b8e5bd8d4eb9"/><file name="system.xml" hash="b6b823534571c11dcd3abff1a7e50582"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="creare"><dir name="dynamicsitemap"><file name="sitemap.phtml" hash="0326a0f50ae2c08ab89600aefb49997e"/></dir></dir></dir><dir name="layout"><file name="creare_dynamicsitemap.xml" hash="0480832b0f7b5a1c5c5cd3e128289dfd"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Creare_DynamicSitemap.xml" hash="b73c659870f8926bb4c59b1e9000ae2b"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="creare"><dir name="css"><file name="dynamicsitemap.css" hash="85d89bf92ecf5e084e2c0b9ae7f271f6"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
